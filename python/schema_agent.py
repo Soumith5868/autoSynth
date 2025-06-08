@@ -11,16 +11,19 @@ class SchemaAgent:
 
     def generate_from_prompt(self, schema_prompt: SchemaPrompt) -> SchemaObject:
         assert schema_prompt.prompt, "Prompt is required"
-        system_msg = (
-            "You are a strict schema generator. Return ONLY a JSON object like:\n"
-            "{\n"
-            "  \"columns\": [\n"
-            "    {\"name\": \"age\", \"type\": \"int\", \"min\": 0, \"max\": 120},\n"
-            "    {\"name\": \"gender\", \"type\": \"categorical\", \"values\": [\"M\", \"F\"]},\n"
-            "    {\"name\": \"admission_date\", \"type\": \"datetime\", \"format\": \"%Y-%m-%d\"}\n"
-            "  ]\n"
-            "}"
-        )
+
+        system_msg = """You are a strict schema generator. Return ONLY a valid JSON object in this format.
+                        Do not include any explanations, markdown, or extra text.
+                        {
+                        "columns": [
+                            {"name": "age", "type": "int", "min": 0, "max": 120},
+                            {"name": "gender", "type": "categorical", "values": ["M", "F"]},
+                            {"name": "admission_date", "type": "datetime", "format": "%Y-%m-%d"}
+                        ]
+                        }
+                        Supported types: "int", "float", "categorical", "string", "datetime"
+                    """
+
         user_msg = f"Use-case: {schema_prompt.use_case}\nPrompt: {schema_prompt.prompt}"
 
         response = self.llm.chat.completions.create(
@@ -31,17 +34,17 @@ class SchemaAgent:
             ]
         )
 
-        text = response.choices[0].message.content
+        text = response.choices[0].message.content.strip()
 
         try:
-            # Try to extract valid JSON from potentially messy output
             json_start = text.find('{')
             json_end = text.rfind('}') + 1
             parsed = json.loads(text[json_start:json_end])
             return SchemaObject(use_case=schema_prompt.use_case, **parsed)
         except (json.JSONDecodeError, ValidationError) as e:
-            print(f"❌ LLM output invalid: {e}")
-            raise ValueError(f"LLM returned malformed or invalid schema.\nRaw output:\n{text}")
+            print("❌ LLM returned invalid JSON or schema.")
+            print("Raw output:\n", text)
+            raise ValueError(f"Schema parsing failed: {e}")
 
     def generate_from_csv(self, schema_prompt: SchemaPrompt) -> SchemaObject:
         assert schema_prompt.csv_path, "CSV path is required"
