@@ -93,7 +93,7 @@ Supported types: "int", "float", "categorical", "string", "datetime"
                 values=values,
                 format=format_hint
             )
-            print(col_schema)
+            print("Hello world")
             cols.append(col_schema)
 
         return SchemaObject(use_case=schema_prompt.use_case, columns=cols)
