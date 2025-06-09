@@ -31,14 +31,7 @@ class CTGANGeneratorAgent:
                     fmt = col.format or "%Y-%m-%d"
                     row[col.name] = self.faker.date_between(start_date='-5y', end_date='today').strftime(fmt)
                 elif col.type == "string":
-                    if "name" in col.name.lower():
-                        row[col.name] = self.get_dynamic_category(col.name, self.faker.name)
-                    elif "city" in col.name.lower():
-                        row[col.name] = self.get_dynamic_category(col.name, self.faker.city)
-                    elif "email" in col.name.lower():
-                        row[col.name] = self.get_dynamic_category(col.name, lambda: f"{self.faker.first_name().lower()}{random.randint(1,99)}@gmail.com")
-                    else:
-                        row[col.name] = self.get_dynamic_category(col.name, self.faker.word)
+                    row[col.name] = None
                 else:
                     row[col.name] = None
             rows.append(row)
@@ -55,7 +48,7 @@ class CTGANGeneratorAgent:
         fake_df = self.generate_fake_data_from_schema(schema, n=100)
     
         # Keep only valid CTGAN columns
-        valid_types = ["string","int", "float", "categorical"]
+        valid_types = [,"int", "float", "categorical"]
         safe_cols = [col.name for col in schema.columns if col.type in valid_types]
         fake_df = fake_df[safe_cols]
 
