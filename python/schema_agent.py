@@ -4,7 +4,6 @@ from openai import OpenAI
 from dotenv import load_dotenv
 load_dotenv()
 from pydantic import ValidationError
-from schema_models import SchemaObject, SchemaPrompt, ColumnSchema
 import os
 
 client = OpenAI(
