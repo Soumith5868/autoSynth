@@ -1,0 +1,7 @@
+pandas
+openai
+pydantic
+faker
+fastapi
+uvicorn
+python-dotenv

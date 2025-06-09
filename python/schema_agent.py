@@ -1,8 +1,23 @@
 import json
 import pandas as pd
 from openai import OpenAI
+from dotenv import load_dotenv
+load_dotenv()
 from pydantic import ValidationError
 from schema_models import SchemaObject, SchemaPrompt, ColumnSchema
+import os
+
+client = OpenAI(
+    api_key=os.getenv("OPENAI_API_KEY"),
+    base_url=os.getenv("OPENAI_BASE_URL")
+)
+
+def test_llm(client):
+    test = client.chat.completions.create(
+        model="deepseek-chat",
+        messages=[{"role": "user", "content": "Say hello"}]
+    )
+    print("✅ Test LLM response:", test.choices[0].message.content)
 
 
 class SchemaAgent:
@@ -26,12 +41,17 @@ class SchemaAgent:
         response = self.llm.chat.completions.create(
             model="deepseek-chat",
             messages=[
-                {"role": "system", "content": system_msg},
-                {"role": "user", "content": user_msg}
+            {"role": "system", "content": system_msg},
+            {"role": "user", "content": user_msg}
             ]
         )
 
         text = response.choices[0].message.content
+        if not text or not text.strip():
+            raise ValueError("❌ Empty response from LLM. Check API key, base URL, or network.")
+        print("✅ LLM Output:\n", text)
+        if not text or not text.strip():
+            raise ValueError("LLM response is empty or invalid. Check API status or quota.")
 
         try:
             # Try to extract valid JSON from potentially messy output
