@@ -1,0 +1,201 @@
+user_id,username,email,age,gender,registration_date,last_login_time,session_duration_seconds,ip_address,device_type,os,browser,country,is_fraudulent
+user_001,amber62,carriemckenzie@example.net,1,Other,2020-12-28 18:10:02,2025-06-07 12:32:37,5206,220.41.57.164,Other,Linux,Edge,China,Yes
+user_002,jmcdonald,cortezjessica@example.com,11,Female,2021-08-28 21:27:52,2025-06-07 11:15:18,2910,16.113.7.131,Desktop,Other,Other,Ethiopia,Yes
+user_003,stevensgary,eric56@example.org,6,Other,2025-03-02 03:39:50,2025-06-06 08:58:55,3101,73.44.50.188,Other,Android,Opera,Zambia,No
+user_004,perezamber,trobbins@example.com,10,Male,2024-01-09 15:56:47,2025-06-05 23:58:12,9871,213.42.195.242,Tablet,Android,Chrome,Switzerland,Yes
+user_005,fitzgeraldangela,rgreene@example.org,22,Other,2021-08-12 21:54:13,2025-06-04 09:38:38,6605,5.8.147.206,Tablet,iOS,Chrome,British Virgin Islands,Yes
+user_006,emily98,gnguyen@example.net,22,Male,2021-06-30 00:31:52,2025-06-04 17:05:18,2432,102.46.78.163,Desktop,Android,Chrome,Saint Helena,No
+user_007,adamskathryn,flane@example.org,67,Female,2021-10-28 13:48:04,2025-06-04 07:57:07,6917,135.169.233.15,Desktop,macOS,Edge,Saint Lucia,No
+user_008,katrina30,jordanfreeman@example.net,44,Male,2022-05-30 17:59:00,2025-06-01 04:55:33,8073,37.34.65.10,Desktop,iOS,Opera,Yemen,Yes
+user_009,natalie51,payneashley@example.org,22,Other,2021-02-07 01:14:29,2025-06-01 01:06:19,6971,190.33.245.155,Desktop,Windows,Other,Finland,No
+user_010,diane38,marystout@example.org,95,Female,2023-01-26 11:13:21,2025-06-09 15:02:50,5653,129.82.240.204,Other,macOS,Safari,French Guiana,Yes
+user_011,michael10,rhughes@example.com,17,Female,2023-11-26 17:57:03,2025-06-05 07:45:08,5803,79.50.92.247,Other,Windows,Opera,Costa Rica,Yes
+user_012,williamswhitney,fullervalerie@example.net,29,Other,2024-03-20 01:42:10,2025-06-04 03:12:12,7990,185.103.133.182,Desktop,Other,Other,Chile,No
+user_013,bcoleman,emilyjohnson@example.org,78,Male,2023-05-10 17:12:17,2025-06-07 15:13:16,5747,38.49.186.31,Other,Android,Safari,Anguilla,Yes
+user_014,hknight,sergio53@example.net,47,Male,2020-10-08 14:04:27,2025-06-02 18:39:46,5014,188.190.195.47,Other,Windows,Edge,Kyrgyz Republic,No
+user_015,jameskim,juan00@example.org,34,Other,2021-07-19 15:48:33,2025-06-04 16:11:10,473,151.81.181.66,Tablet,Linux,Chrome,Northern Mariana Islands,No
+user_016,gperez,glassjames@example.org,22,Female,2022-07-05 07:33:11,2025-06-05 16:43:08,3097,167.161.98.178,Tablet,iOS,Edge,Swaziland,No
+user_017,wanda59,daniellegardner@example.org,63,Other,2020-07-27 15:13:23,2025-06-07 09:03:32,2948,118.72.16.150,Other,Windows,Chrome,Libyan Arab Jamahiriya,No
+user_018,hornalyssa,joseph04@example.net,64,Other,2020-10-18 06:16:02,2025-06-01 18:16:33,1546,6.109.210.196,Other,iOS,Opera,Iran,Yes
+user_019,williamsmisty,glennshaffer@example.com,63,Other,2021-08-21 12:10:48,2025-06-02 12:05:06,4553,44.25.219.120,Tablet,Windows,Safari,Bahrain,No
+user_020,kellybaker,kathryn04@example.com,81,Female,2021-04-30 16:19:30,2025-06-10 17:56:11,6964,181.101.255.1,Tablet,Android,Opera,Honduras,No
+user_021,aosborne,alan27@example.org,58,Male,2020-01-20 07:21:50,2025-06-06 17:57:15,6647,154.218.170.74,Tablet,Linux,Safari,Saint Martin,Yes
+user_022,christopherchan,davispaul@example.org,54,Male,2023-09-25 00:00:18,2025-06-06 03:44:33,2216,27.197.194.157,Mobile,Android,Safari,Montserrat,No
+user_023,jjuarez,laurierobertson@example.net,69,Male,2021-03-18 19:08:08,2025-06-09 12:02:19,9821,91.249.18.84,Tablet,Android,Edge,Montenegro,No
+user_024,cummingspaige,warrenbrianna@example.com,55,Other,2025-03-17 23:42:44,2025-06-09 19:47:22,838,166.217.56.177,Other,macOS,Chrome,New Caledonia,Yes
+user_025,dgonzalez,ryan48@example.org,19,Female,2023-03-04 19:57:58,2025-06-07 02:27:53,2822,194.66.134.86,Mobile,macOS,Other,Estonia,Yes
+user_026,whurst,rmurphy@example.org,56,Male,2024-05-04 23:48:52,2025-06-08 17:52:47,9783,184.25.254.179,Desktop,iOS,Chrome,Jersey,Yes
+user_027,jacqueline70,henrybrandy@example.com,39,Other,2021-04-22 13:03:44,2025-06-06 08:15:37,4543,195.127.145.212,Mobile,macOS,Chrome,Falkland Islands (Malvinas),Yes
+user_028,robertsbethany,greernancy@example.net,52,Other,2022-08-30 12:13:09,2025-06-02 00:31:06,2309,133.144.14.171,Mobile,Android,Chrome,Cook Islands,Yes
+user_029,isaiah89,mdickson@example.org,0,Male,2021-11-27 16:45:32,2025-06-09 21:59:30,1933,220.109.5.46,Mobile,Android,Chrome,Puerto Rico,No
+user_030,gabrielle26,vmartin@example.org,39,Female,2021-11-06 02:37:25,2025-06-09 08:10:41,3703,7.179.226.44,Tablet,iOS,Edge,Vanuatu,Yes
+user_031,esteschristine,amandaserrano@example.net,8,Female,2021-04-05 18:31:47,2025-06-03 14:40:56,340,132.68.84.159,Desktop,iOS,Edge,Swaziland,Yes
+user_032,melindahopkins,kevin20@example.net,34,Female,2022-06-02 22:03:53,2025-06-08 08:29:54,7751,50.83.117.210,Desktop,iOS,Opera,Micronesia,No
+user_033,mary38,jenniferwashington@example.net,35,Other,2023-05-11 12:52:37,2025-06-04 17:38:11,1132,88.213.117.9,Mobile,Other,Edge,New Caledonia,No
+user_034,carla23,cheryl28@example.com,85,Female,2022-06-15 17:15:41,2025-06-08 01:25:41,6073,14.44.116.57,Tablet,Android,Firefox,Paraguay,Yes
+user_035,curryaudrey,johnsonsteven@example.org,61,Other,2020-06-04 04:55:08,2025-06-06 15:26:55,5235,131.136.211.22,Other,Other,Chrome,Cyprus,Yes
+user_036,reyestimothy,frose@example.net,56,Other,2022-01-26 16:15:08,2025-06-06 09:30:18,1876,17.127.222.250,Desktop,Android,Chrome,Saudi Arabia,Yes
+user_037,cspencer,ann87@example.com,36,Other,2023-02-28 10:25:52,2025-06-01 21:08:34,7412,124.242.117.253,Mobile,Linux,Firefox,Greece,Yes
+user_038,adamharris,hamiltonjulie@example.org,41,Male,2022-06-05 19:00:44,2025-06-08 14:28:30,7692,76.184.46.135,Mobile,Linux,Other,Niger,Yes
+user_039,heidienglish,lcombs@example.org,90,Other,2023-04-11 08:31:34,2025-06-08 20:38:56,1491,117.48.229.244,Mobile,Linux,Edge,Lebanon,No
+user_040,melanie78,heatherphillips@example.com,91,Other,2022-04-15 14:30:20,2025-06-10 05:06:59,7240,155.201.187.60,Tablet,Other,Safari,Belgium,Yes
+user_041,xmorris,ernestharris@example.org,47,Other,2024-10-08 00:58:04,2025-06-01 22:20:58,8491,124.211.16.127,Tablet,Other,Safari,Namibia,No
+user_042,christopherholloway,anthony15@example.org,45,Other,2024-10-23 18:18:37,2025-06-08 23:36:36,9574,198.9.94.151,Tablet,Linux,Safari,Kyrgyz Republic,No
+user_043,chad06,crystalmendoza@example.com,71,Male,2021-08-03 09:23:23,2025-06-01 03:06:00,9283,147.90.115.254,Desktop,Windows,Opera,Solomon Islands,No
+user_044,lisawilson,millerbeth@example.com,56,Male,2025-04-23 17:36:08,2025-06-07 17:23:40,4486,19.206.9.77,Mobile,macOS,Safari,Korea,Yes
+user_045,rosshull,dickersonjulie@example.com,2,Other,2022-03-06 10:37:38,2025-06-07 08:23:26,1712,74.43.103.136,Mobile,Android,Firefox,Western Sahara,No
+user_046,mhawkins,caseykristen@example.org,1,Other,2020-06-06 16:18:21,2025-06-05 17:52:49,1091,66.227.33.204,Desktop,iOS,Opera,Georgia,No
+user_047,fbell,murphykayla@example.com,14,Other,2023-05-06 00:35:49,2025-06-08 21:52:33,930,52.181.188.56,Mobile,macOS,Edge,Angola,Yes
+user_048,teresacruz,peter69@example.com,61,Male,2021-08-15 01:56:41,2025-06-08 09:25:15,338,130.63.120.4,Desktop,Other,Opera,Tanzania,No
+user_049,lopezkendra,roycynthia@example.com,81,Male,2023-10-17 07:26:16,2025-06-03 08:19:03,8800,38.75.11.195,Mobile,Android,Edge,British Indian Ocean Territory (Chagos Archipelago),Yes
+user_050,warrenmichael,jsmith@example.org,67,Female,2023-03-30 08:57:43,2025-06-01 18:48:00,6303,137.166.84.31,Desktop,macOS,Safari,Israel,Yes
+user_051,lorimitchell,paulholt@example.com,16,Female,2021-09-18 09:52:45,2025-06-07 21:50:51,9410,14.173.138.117,Desktop,Linux,Other,Iraq,No
+user_052,joseph34,fkaiser@example.net,80,Female,2020-12-01 17:09:27,2025-06-10 06:31:08,268,78.87.142.0,Other,Linux,Firefox,France,No
+user_053,eduncan,bauerdennis@example.com,22,Female,2021-06-30 14:15:08,2025-06-10 05:32:24,3288,65.4.50.44,Tablet,Android,Safari,Zambia,Yes
+user_054,ryan06,xwade@example.net,72,Male,2023-10-29 21:32:40,2025-06-06 04:09:28,9367,218.149.136.212,Desktop,macOS,Safari,Bhutan,Yes
+user_055,kelly13,hwilson@example.org,70,Other,2021-09-10 03:10:35,2025-06-07 10:59:44,8549,5.181.192.156,Other,iOS,Chrome,Greenland,No
+user_056,jimmy14,philip54@example.com,41,Male,2020-06-26 03:20:23,2025-06-07 18:36:01,9463,115.133.197.247,Tablet,Windows,Edge,Saint Barthelemy,Yes
+user_057,justin75,paige53@example.com,79,Male,2022-07-03 22:03:26,2025-06-03 18:11:44,9074,210.47.12.252,Mobile,Linux,Safari,Mexico,No
+user_058,kevintorres,stephaniedavis@example.com,30,Female,2024-04-20 00:18:48,2025-06-07 21:20:25,1006,142.206.88.132,Tablet,macOS,Safari,Saint Barthelemy,Yes
+user_059,murphydonald,smitheric@example.org,27,Other,2025-05-28 21:31:48,2025-06-04 04:55:16,9186,137.174.236.14,Desktop,Android,Opera,Senegal,No
+user_060,paulbrown,amy73@example.com,31,Female,2023-07-25 08:11:00,2025-06-08 19:06:14,7972,82.27.64.237,Mobile,macOS,Edge,British Indian Ocean Territory (Chagos Archipelago),Yes
+user_061,dflynn,millerharry@example.org,93,Male,2024-01-24 21:35:23,2025-06-10 13:19:09,102,10.118.242.10,Desktop,Other,Opera,Maldives,No
+user_062,baileystephen,fbryant@example.org,34,Other,2024-04-10 20:03:54,2025-06-10 06:36:31,7139,14.82.118.178,Desktop,macOS,Safari,Germany,No
+user_063,npatterson,pdillon@example.org,55,Other,2020-09-22 03:33:22,2025-06-05 20:36:36,3805,156.1.61.89,Desktop,Other,Edge,Chile,No
+user_064,bradshawalyssa,matthewsscott@example.com,63,Female,2023-06-02 10:09:53,2025-06-04 20:43:45,2457,85.185.50.102,Desktop,macOS,Opera,Sudan,No
+user_065,jsanchez,jamiepalmer@example.com,85,Male,2021-04-19 16:27:50,2025-06-07 04:55:56,8766,186.54.87.43,Other,Android,Firefox,Mongolia,Yes
+user_066,burgessjenny,susanmason@example.net,66,Female,2022-04-01 06:32:52,2025-06-03 05:20:12,9392,160.209.175.29,Other,Other,Safari,Tonga,Yes
+user_067,georgebaker,gomezbeverly@example.org,31,Other,2023-08-01 07:17:00,2025-06-04 18:55:09,2281,194.159.118.142,Mobile,macOS,Opera,Greenland,No
+user_068,james47,gdixon@example.net,53,Female,2020-06-22 02:41:16,2025-06-03 17:33:24,919,169.14.39.155,Tablet,Android,Opera,Lao People's Democratic Republic,Yes
+user_069,lramirez,mwalker@example.com,68,Other,2021-09-22 05:35:06,2025-06-02 19:49:55,6050,163.106.81.27,Desktop,Other,Firefox,Marshall Islands,Yes
+user_070,melodynunez,manuel62@example.net,3,Other,2022-04-15 14:38:51,2025-06-08 23:51:16,4578,171.80.53.77,Other,Linux,Other,Iceland,No
+user_071,whitenatalie,pfrederick@example.com,57,Male,2021-11-02 09:13:41,2025-06-06 08:28:29,9331,158.151.112.166,Tablet,Other,Safari,Martinique,Yes
+user_072,ule,castillobonnie@example.net,77,Other,2021-09-30 13:17:05,2025-06-09 09:43:09,4575,102.129.199.145,Desktop,Windows,Safari,Saint Helena,No
+user_073,whitelisa,gerald96@example.org,63,Other,2025-05-09 21:19:45,2025-06-05 07:24:23,7545,81.34.87.66,Mobile,macOS,Edge,Saint Pierre and Miquelon,Yes
+user_074,rgrant,eoneill@example.net,22,Other,2020-02-26 18:14:06,2025-06-09 13:56:08,1692,25.197.120.248,Mobile,Other,Chrome,Bolivia,Yes
+user_075,qmacdonald,daniel34@example.net,81,Female,2021-08-26 00:02:00,2025-06-05 06:13:01,3263,9.3.29.216,Mobile,Windows,Chrome,Czech Republic,Yes
+user_076,carrolllisa,gary38@example.com,59,Male,2023-06-11 02:57:19,2025-06-07 09:13:03,8677,164.45.128.164,Other,iOS,Other,South Africa,Yes
+user_077,abrown,gordonemily@example.org,79,Male,2021-06-08 10:29:22,2025-06-03 08:39:02,5202,178.212.195.3,Other,macOS,Safari,Mozambique,Yes
+user_078,ronaldbell,jaustin@example.org,19,Male,2023-06-21 10:45:52,2025-06-02 18:46:39,9134,208.51.230.121,Desktop,Android,Firefox,Azerbaijan,Yes
+user_079,emeza,phillip99@example.com,54,Male,2021-06-23 04:25:45,2025-06-05 23:09:10,8854,199.93.100.76,Desktop,iOS,Edge,Jordan,Yes
+user_080,debrajohnson,johnrodriguez@example.com,76,Female,2025-05-05 20:22:16,2025-06-05 17:56:50,8050,129.209.186.0,Mobile,macOS,Opera,Zambia,No
+user_081,mcampbell,chavezjill@example.net,95,Male,2020-09-13 11:44:13,2025-06-09 07:23:25,3676,135.153.86.45,Mobile,Linux,Chrome,Italy,Yes
+user_082,brianhowell,elizabeth72@example.net,34,Male,2022-12-31 20:53:30,2025-06-02 13:21:19,8203,218.75.21.243,Desktop,Android,Firefox,Korea,Yes
+user_083,anthony51,mcarroll@example.org,71,Female,2025-01-28 12:49:50,2025-06-04 06:24:43,7336,220.231.61.194,Tablet,Android,Safari,Ireland,No
+user_084,patriciabowen,hprice@example.net,39,Other,2021-01-24 22:28:11,2025-06-04 10:52:31,5465,174.94.215.69,Desktop,Android,Edge,Mayotte,Yes
+user_085,candicesmith,austinchristopher@example.net,91,Female,2023-01-30 05:07:05,2025-06-01 15:41:22,5438,89.218.144.65,Tablet,Other,Firefox,Iraq,Yes
+user_086,carlos79,megan27@example.com,81,Female,2022-06-04 17:45:03,2025-06-07 07:15:32,9731,183.212.129.27,Other,Android,Opera,Moldova,Yes
+user_087,robertjohnson,tgordon@example.org,68,Male,2023-03-25 23:59:04,2025-06-08 13:10:31,8186,11.199.19.104,Mobile,Android,Safari,Saint Barthelemy,No
+user_088,olsonkyle,riverasherry@example.org,4,Male,2025-03-02 21:22:42,2025-06-01 00:03:06,3439,57.111.230.178,Other,iOS,Other,Svalbard & Jan Mayen Islands,Yes
+user_089,jamesbradley,brockjennifer@example.com,66,Female,2023-02-28 06:49:30,2025-06-10 21:22:51,8918,75.71.12.239,Tablet,Other,Chrome,Holy See (Vatican City State),Yes
+user_090,nperez,nicole69@example.com,38,Male,2023-03-16 23:21:37,2025-06-05 01:51:49,5207,67.204.39.170,Desktop,macOS,Firefox,Saint Barthelemy,No
+user_091,bradley54,martinlisa@example.com,43,Other,2025-05-18 20:43:24,2025-06-01 13:54:26,8726,25.97.89.149,Desktop,macOS,Safari,Norfolk Island,Yes
+user_092,deanna75,sdavis@example.com,7,Male,2022-07-26 22:14:37,2025-06-08 13:32:25,5991,211.118.88.247,Tablet,macOS,Other,Suriname,Yes
+user_093,jpayne,jennifer93@example.org,8,Male,2020-03-25 22:11:13,2025-06-06 15:56:56,5978,48.5.31.55,Desktop,iOS,Firefox,Lebanon,Yes
+user_094,ustephens,kevinmiller@example.com,55,Male,2024-06-09 04:28:40,2025-06-04 22:24:05,8396,188.202.223.56,Tablet,Linux,Chrome,Mauritius,No
+user_095,erin15,riveramartha@example.net,32,Male,2020-01-31 11:54:09,2025-06-09 09:52:04,9065,82.225.151.143,Tablet,Windows,Opera,Saint Vincent and the Grenadines,No
+user_096,brightlinda,garciaaaron@example.net,57,Male,2021-09-17 14:43:04,2025-06-03 18:38:53,7539,176.8.189.70,Mobile,Android,Edge,Spain,No
+user_097,chavezrebecca,katherinegreene@example.org,37,Male,2023-04-27 18:31:50,2025-06-03 01:06:04,5769,136.10.44.94,Mobile,Linux,Safari,Egypt,Yes
+user_098,pinedapamela,zlane@example.com,22,Other,2020-04-02 11:18:25,2025-06-07 23:22:23,8055,202.172.153.110,Desktop,Linux,Edge,Afghanistan,Yes
+user_099,iarmstrong,stevewalsh@example.net,48,Female,2024-02-21 13:16:52,2025-06-10 20:22:28,6956,13.89.30.167,Tablet,iOS,Edge,Ukraine,Yes
+user_100,todd32,darren76@example.net,53,Female,2020-04-17 12:02:28,2025-06-05 22:59:38,1781,17.36.89.145,Mobile,Other,Safari,British Virgin Islands,Yes
+user_101,jessehaas,emilyhood@example.net,41,Female,2025-04-18 12:06:28,2025-06-09 19:59:57,3129,139.86.194.67,Desktop,Android,Firefox,Korea,No
+user_102,beltranrandall,stewartdavid@example.com,85,Other,2020-07-13 00:22:25,2025-06-05 18:50:59,3378,94.3.214.123,Desktop,macOS,Firefox,Czech Republic,No
+user_103,ashleygonzalez,shawnmurphy@example.net,12,Other,2022-08-22 12:56:55,2025-06-02 02:11:36,994,36.109.244.17,Tablet,Other,Safari,Syrian Arab Republic,No
+user_104,michellekey,vvalenzuela@example.com,20,Male,2023-07-28 11:31:40,2025-06-06 08:40:32,6057,86.17.57.235,Tablet,Android,Chrome,Peru,Yes
+user_105,chase73,james25@example.org,88,Other,2022-04-07 00:32:09,2025-06-05 18:50:04,7661,197.170.9.229,Desktop,macOS,Chrome,Malawi,No
+user_106,newtonjonathan,garygriffin@example.net,99,Male,2024-08-04 06:41:59,2025-06-07 10:41:16,8088,34.66.92.127,Desktop,iOS,Firefox,Tunisia,Yes
+user_107,kristin58,mary20@example.net,66,Other,2022-11-21 06:48:34,2025-06-06 00:00:49,3023,21.29.227.14,Desktop,iOS,Safari,Belize,No
+user_108,smeyer,linda95@example.org,87,Other,2024-06-11 22:56:44,2025-06-10 18:45:36,9632,181.84.152.156,Desktop,macOS,Chrome,Brazil,Yes
+user_109,oturner,jesselynn@example.org,91,Other,2023-07-07 08:50:37,2025-06-09 10:07:47,8510,37.202.219.231,Mobile,Linux,Chrome,South Georgia and the South Sandwich Islands,Yes
+user_110,wreyes,andersondeanna@example.com,71,Male,2021-08-06 17:45:09,2025-06-10 09:47:09,6094,169.71.241.250,Other,Android,Other,Samoa,No
+user_111,miranda79,terrencecohen@example.net,19,Other,2023-02-08 20:24:29,2025-06-05 00:51:34,9484,93.32.49.109,Tablet,macOS,Edge,Guinea-Bissau,No
+user_112,mccallandrea,rebeccagarrett@example.com,57,Female,2022-02-15 11:49:28,2025-06-10 03:15:47,8962,82.67.152.194,Mobile,Windows,Safari,Malaysia,No
+user_113,baxterdanielle,brandyarmstrong@example.com,48,Other,2023-08-31 22:54:09,2025-06-05 10:27:26,5376,21.214.84.32,Tablet,macOS,Firefox,Sierra Leone,No
+user_114,btaylor,larrybryant@example.org,51,Female,2021-09-12 15:07:31,2025-06-08 01:25:36,8483,206.105.154.181,Mobile,Other,Chrome,Dominican Republic,No
+user_115,ihill,williamcarpenter@example.net,83,Male,2022-12-07 15:54:42,2025-06-02 19:08:19,801,2.143.32.220,Desktop,Windows,Edge,Northern Mariana Islands,No
+user_116,smatthews,baileywalter@example.org,20,Female,2024-07-23 18:29:41,2025-06-01 09:14:01,3535,171.91.91.225,Mobile,Android,Safari,Colombia,No
+user_117,bfrancis,juliekelly@example.com,13,Female,2020-07-21 20:46:39,2025-06-06 05:34:38,5122,142.148.119.98,Mobile,macOS,Chrome,Serbia,Yes
+user_118,duncanjackie,tonyagarza@example.net,10,Male,2020-11-03 17:38:34,2025-06-02 19:35:40,982,139.219.68.115,Other,Other,Firefox,Mayotte,Yes
+user_119,dstafford,wallacejames@example.com,16,Male,2021-10-13 01:19:00,2025-06-03 16:01:18,3798,101.183.198.187,Mobile,macOS,Chrome,Tajikistan,No
+user_120,webblaura,nclay@example.com,45,Female,2023-12-04 19:38:41,2025-06-09 00:03:53,5308,130.255.206.136,Desktop,Linux,Safari,France,Yes
+user_121,erowland,aramos@example.com,46,Male,2022-09-22 23:49:04,2025-06-09 02:51:51,1935,153.101.133.131,Tablet,iOS,Other,Australia,Yes
+user_122,gwilliams,dparker@example.com,51,Female,2024-03-29 01:52:32,2025-06-08 17:57:01,2510,124.104.135.173,Desktop,Linux,Safari,Liechtenstein,Yes
+user_123,joseclark,cwoodward@example.net,66,Other,2024-04-18 03:13:47,2025-06-05 06:55:18,2618,128.198.46.31,Mobile,macOS,Firefox,Yemen,No
+user_124,zmcclure,kimberlyowens@example.com,80,Other,2022-05-10 14:47:59,2025-06-07 09:58:48,9055,188.110.20.48,Other,Linux,Opera,Cook Islands,Yes
+user_125,cynthiastokes,flowerstimothy@example.com,34,Other,2020-02-24 04:59:02,2025-06-07 03:09:06,9818,175.165.123.3,Desktop,Other,Firefox,South Georgia and the South Sandwich Islands,No
+user_126,joshuapowell,dayangela@example.net,19,Male,2022-07-04 15:20:56,2025-06-05 05:26:57,7130,20.25.80.241,Desktop,macOS,Opera,Saint Kitts and Nevis,Yes
+user_127,bperez,bbullock@example.org,51,Other,2022-03-24 15:54:51,2025-06-07 11:56:39,1876,118.255.85.185,Mobile,macOS,Chrome,Estonia,No
+user_128,ahendricks,alexdelgado@example.net,7,Female,2025-03-28 16:24:29,2025-06-10 16:56:07,2111,122.161.229.66,Mobile,Android,Safari,Sao Tome and Principe,No
+user_129,bhines,iconway@example.org,32,Other,2022-11-29 01:39:42,2025-06-08 02:55:44,2012,120.124.127.148,Mobile,Linux,Chrome,El Salvador,No
+user_130,smithdarrell,gloriawilliams@example.org,10,Other,2022-06-17 00:14:04,2025-06-04 20:18:26,76,75.193.74.153,Other,Android,Safari,Trinidad and Tobago,No
+user_131,michael07,lfinley@example.org,51,Female,2025-03-27 22:43:09,2025-06-10 03:18:00,9237,95.153.135.147,Other,Android,Edge,Micronesia,No
+user_132,campbellalicia,mayercrystal@example.net,49,Female,2021-07-27 10:43:47,2025-06-08 17:21:00,7077,35.100.122.154,Other,iOS,Firefox,Libyan Arab Jamahiriya,No
+user_133,raycynthia,lindsay77@example.com,3,Female,2024-05-10 09:55:32,2025-06-01 22:41:00,9703,153.10.56.249,Other,iOS,Firefox,Cameroon,Yes
+user_134,palexander,faithwilliams@example.com,23,Other,2024-05-23 14:58:46,2025-06-10 04:32:01,4694,35.149.96.11,Tablet,Linux,Opera,Estonia,No
+user_135,riveraalyssa,cory89@example.com,46,Female,2024-09-22 21:11:14,2025-06-06 23:40:23,7469,165.86.113.27,Mobile,Linux,Other,India,Yes
+user_136,ksharp,joshuadecker@example.org,99,Male,2023-02-27 04:15:29,2025-06-06 21:21:13,6692,93.84.232.136,Mobile,Linux,Firefox,Lao People's Democratic Republic,Yes
+user_137,jason09,zpatel@example.org,71,Other,2021-11-15 00:57:03,2025-06-08 23:19:26,5928,47.172.228.207,Desktop,Windows,Opera,Pakistan,No
+user_138,jeremy23,vmiller@example.com,84,Other,2025-03-06 19:11:07,2025-06-06 04:40:21,2276,90.212.180.211,Desktop,Linux,Safari,Poland,Yes
+user_139,lisa17,rjohnston@example.net,98,Male,2024-07-25 15:57:30,2025-06-01 19:02:51,4318,106.59.78.9,Desktop,Android,Safari,Chile,No
+user_140,linda53,victoriamurray@example.org,32,Male,2023-10-24 12:36:49,2025-06-09 21:55:01,3469,143.33.59.101,Other,iOS,Other,Philippines,Yes
+user_141,jcarey,dsingleton@example.com,98,Male,2021-04-05 13:45:02,2025-06-08 10:03:13,7485,132.244.229.162,Other,macOS,Edge,Bolivia,No
+user_142,nataliebarnes,andrew68@example.org,4,Male,2022-03-20 20:43:46,2025-06-02 08:15:56,4193,61.130.117.18,Other,Windows,Edge,Zambia,Yes
+user_143,kennethcooper,frank18@example.com,79,Female,2023-04-09 00:25:01,2025-06-10 18:57:40,2736,145.134.179.73,Tablet,Linux,Chrome,Macao,Yes
+user_144,esellers,mariaduncan@example.com,62,Female,2022-04-01 18:01:52,2025-06-05 08:07:13,4192,202.164.57.200,Tablet,Linux,Safari,Sri Lanka,Yes
+user_145,erikhogan,josephillips@example.net,15,Female,2020-04-14 10:25:36,2025-06-02 14:06:27,8632,73.91.63.109,Other,iOS,Other,Eritrea,Yes
+user_146,emily70,xvilla@example.org,37,Male,2024-07-14 22:52:09,2025-06-07 06:40:21,894,59.142.89.3,Tablet,iOS,Opera,Tonga,Yes
+user_147,sarahmitchell,michaellopez@example.org,47,Other,2022-08-09 01:46:44,2025-06-05 02:50:02,2492,113.234.96.114,Other,iOS,Firefox,Montserrat,No
+user_148,moniquehendrix,daviddelgado@example.org,63,Male,2023-10-03 21:28:35,2025-06-02 09:43:44,3565,116.70.237.63,Desktop,macOS,Opera,Uruguay,Yes
+user_149,randy27,natasha60@example.org,32,Male,2022-10-18 13:42:59,2025-06-09 12:02:12,2792,13.142.48.50,Desktop,iOS,Opera,Falkland Islands (Malvinas),No
+user_150,raytyler,pmullen@example.org,11,Female,2020-06-15 20:58:50,2025-06-04 17:40:33,1470,100.130.57.96,Mobile,iOS,Other,Afghanistan,Yes
+user_151,pschneider,jacob83@example.com,66,Female,2023-05-14 23:26:24,2025-06-03 02:41:04,648,163.53.143.91,Tablet,Windows,Safari,Iraq,No
+user_152,lowerobert,johnsonmichael@example.org,11,Male,2024-12-07 03:16:29,2025-06-08 13:48:58,7404,2.222.183.211,Other,Android,Safari,Bermuda,No
+user_153,michaelklein,mirandaalison@example.com,37,Other,2020-08-26 15:56:51,2025-06-06 02:49:44,8780,198.40.136.17,Other,Windows,Firefox,Kazakhstan,Yes
+user_154,diazjennifer,castillohannah@example.com,93,Male,2022-03-10 02:17:53,2025-06-04 19:02:47,7149,114.166.22.13,Other,macOS,Safari,Saint Kitts and Nevis,Yes
+user_155,josephmccarty,ryan68@example.com,23,Other,2020-02-22 07:58:45,2025-06-04 13:44:49,1706,119.73.219.57,Tablet,Linux,Other,Germany,Yes
+user_156,brownbrandy,donna44@example.org,38,Other,2024-01-06 10:40:00,2025-06-09 03:31:09,650,63.195.35.114,Tablet,Other,Firefox,Croatia,Yes
+user_157,danielwhite,jeffery14@example.net,45,Male,2021-10-21 14:49:57,2025-06-01 16:46:37,7692,216.251.103.237,Other,iOS,Edge,Greenland,No
+user_158,oscarcontreras,xgarcia@example.com,52,Female,2020-08-06 23:56:09,2025-06-01 12:09:19,917,156.240.243.245,Desktop,Other,Edge,Mozambique,No
+user_159,gail72,tammy28@example.com,91,Other,2022-02-21 20:57:15,2025-06-04 07:47:19,3437,210.54.23.125,Mobile,iOS,Safari,Ghana,No
+user_160,qhernandez,nicholeguzman@example.org,21,Other,2023-06-27 18:06:56,2025-06-05 18:39:41,649,175.28.88.124,Tablet,Android,Firefox,Honduras,Yes
+user_161,annadrake,jalvarez@example.net,47,Female,2023-08-08 14:09:46,2025-06-05 13:36:05,3088,114.202.88.84,Other,Linux,Chrome,Czech Republic,No
+user_162,richard38,samanthajensen@example.com,92,Other,2024-06-05 07:39:53,2025-06-02 11:51:02,235,113.233.253.212,Mobile,Linux,Other,El Salvador,Yes
+user_163,shawcassandra,bradyronald@example.org,89,Female,2020-07-05 18:04:19,2025-06-07 07:25:17,6031,28.94.180.34,Mobile,macOS,Other,Netherlands,Yes
+user_164,morgandarren,kgreen@example.net,16,Other,2024-07-17 23:42:58,2025-06-07 18:05:49,4858,76.58.75.48,Mobile,Other,Chrome,Guatemala,Yes
+user_165,flee,opham@example.org,95,Male,2020-10-07 13:25:06,2025-06-08 00:19:15,2749,119.113.88.234,Desktop,macOS,Firefox,French Guiana,Yes
+user_166,nnichols,markswanson@example.net,47,Male,2022-10-01 14:20:57,2025-06-07 04:06:57,5488,209.105.7.203,Tablet,macOS,Other,Thailand,Yes
+user_167,kevin67,christinanorton@example.com,22,Female,2020-08-04 14:50:48,2025-06-10 01:45:19,8608,97.77.32.136,Tablet,Android,Opera,Senegal,Yes
+user_168,frederick63,jonesemily@example.org,51,Male,2023-12-02 03:47:18,2025-06-01 22:05:41,4416,83.103.13.236,Desktop,Windows,Other,Puerto Rico,No
+user_169,tony97,ithompson@example.net,68,Male,2020-09-27 10:06:05,2025-06-04 05:38:10,343,143.101.236.21,Mobile,macOS,Opera,Luxembourg,Yes
+user_170,sara72,angelajames@example.net,72,Female,2022-07-31 03:01:37,2025-06-05 04:05:25,644,16.108.190.151,Desktop,Android,Edge,Greenland,No
+user_171,mclaughlincorey,finleytyler@example.net,75,Other,2024-03-22 17:12:27,2025-06-02 02:47:42,1939,151.3.230.136,Desktop,Other,Chrome,Trinidad and Tobago,Yes
+user_172,tgreen,vwatson@example.org,18,Male,2022-11-12 01:38:26,2025-06-03 12:13:44,2890,53.126.183.206,Mobile,Linux,Other,Colombia,No
+user_173,reyeslawrence,pgardner@example.com,32,Male,2022-01-05 03:36:59,2025-06-09 10:21:43,3308,187.233.243.62,Desktop,Android,Safari,Serbia,Yes
+user_174,elizabeth72,matthew37@example.org,89,Other,2020-01-12 01:07:11,2025-06-07 17:25:51,9654,74.22.210.60,Other,Android,Firefox,Israel,No
+user_175,lisa47,alexa16@example.org,38,Female,2020-05-06 17:31:08,2025-06-07 15:17:22,7929,145.217.106.199,Other,macOS,Firefox,Botswana,Yes
+user_176,zware,blairerika@example.net,50,Male,2023-08-27 13:46:14,2025-06-08 12:41:50,9627,33.65.112.106,Tablet,Android,Opera,Montserrat,Yes
+user_177,ryanjones,sharpmichael@example.net,95,Male,2023-05-20 17:08:12,2025-06-02 19:06:35,2867,135.88.97.172,Desktop,Windows,Edge,Netherlands Antilles,No
+user_178,maryhensley,jeffrey84@example.net,51,Other,2022-03-24 13:37:37,2025-06-06 04:08:58,9249,69.195.136.108,Tablet,Linux,Safari,Bolivia,No
+user_179,hannah02,fdavis@example.com,73,Male,2022-03-07 04:09:29,2025-06-01 19:37:28,1235,2.26.210.53,Desktop,Other,Chrome,Uruguay,Yes
+user_180,sheri53,jennifer19@example.com,80,Male,2022-01-06 03:31:17,2025-06-02 16:50:48,2775,148.82.26.230,Desktop,Linux,Firefox,Greece,No
+user_181,gabriel25,tiffany17@example.com,28,Female,2021-07-29 10:09:31,2025-06-10 02:38:27,923,136.84.153.138,Mobile,Android,Edge,United States of America,Yes
+user_182,william58,robinsonmichael@example.org,97,Female,2020-04-23 20:10:28,2025-06-04 00:15:29,1104,139.134.117.186,Mobile,Other,Other,Austria,Yes
+user_183,elizabeth91,jcastro@example.com,20,Other,2023-11-30 10:17:00,2025-06-08 17:36:45,6264,159.184.63.215,Other,Android,Chrome,New Zealand,No
+user_184,hensleythomas,ryansmith@example.net,53,Male,2024-05-13 12:05:42,2025-06-08 14:38:17,3348,66.28.247.185,Tablet,Linux,Other,Thailand,No
+user_185,gloriagarcia,ubrown@example.com,37,Other,2021-12-24 23:29:41,2025-06-05 00:05:29,2925,27.169.118.72,Other,Windows,Edge,Saint Vincent and the Grenadines,Yes
+user_186,rodriguezstephanie,uharrell@example.com,87,Female,2022-04-24 18:45:12,2025-06-04 21:31:49,8065,12.225.230.3,Desktop,Linux,Firefox,Sao Tome and Principe,No
+user_187,smithpaul,brandonmaldonado@example.net,2,Other,2020-08-25 04:38:53,2025-06-07 12:06:50,9094,184.132.108.115,Tablet,iOS,Chrome,Lebanon,Yes
+user_188,bernard10,lmiller@example.org,44,Male,2024-10-24 15:43:54,2025-06-07 18:25:55,6208,173.156.129.106,Tablet,macOS,Firefox,French Southern Territories,No
+user_189,ganderson,csmith@example.com,1,Female,2022-06-14 04:42:02,2025-06-03 04:43:01,8510,43.57.129.24,Mobile,iOS,Edge,Hong Kong,No
+user_190,brittanyschwartz,colleenturner@example.net,71,Other,2022-01-08 20:14:50,2025-06-01 19:40:46,1410,113.46.88.196,Desktop,Linux,Edge,Jersey,Yes
+user_191,cameronmariah,llarsen@example.net,50,Male,2021-12-07 02:06:33,2025-06-08 21:34:36,8077,202.110.144.165,Tablet,Linux,Other,Yemen,No
+user_192,williamsonjennifer,goneal@example.net,25,Female,2020-06-07 15:50:44,2025-06-02 04:21:52,2142,191.26.45.210,Mobile,macOS,Safari,Papua New Guinea,Yes
+user_193,marcusflores,rickyherman@example.net,63,Female,2023-03-15 07:50:28,2025-06-09 17:21:18,1974,170.114.82.36,Tablet,Other,Safari,Nicaragua,Yes
+user_194,jblack,woodsean@example.com,87,Male,2020-11-29 13:11:27,2025-06-03 15:22:51,4086,42.30.109.146,Tablet,Android,Other,Guyana,No
+user_195,simsroger,katherinegray@example.com,84,Male,2020-12-04 00:02:11,2025-06-03 20:35:51,1947,28.216.161.0,Other,Linux,Safari,Kazakhstan,Yes
+user_196,fshaw,jenna99@example.org,83,Other,2020-11-19 05:19:06,2025-06-02 21:26:31,7033,80.246.183.47,Desktop,Other,Safari,Germany,No
+user_197,brendahahn,jamesbanks@example.org,0,Other,2022-02-20 07:40:28,2025-06-03 14:40:04,8416,30.41.139.249,Mobile,Android,Firefox,Ecuador,Yes
+user_198,maryfitzgerald,sstewart@example.net,67,Female,2023-06-27 03:16:34,2025-06-02 06:29:19,1217,124.197.73.194,Tablet,macOS,Chrome,Korea,Yes
+user_199,perryfelicia,jordan05@example.org,45,Other,2025-05-30 14:37:36,2025-06-02 12:33:21,1941,150.249.117.196,Desktop,Windows,Edge,Guernsey,Yes
+user_200,russellsandra,ssmith@example.net,43,Female,2024-01-09 18:42:20,2025-06-09 20:15:59,7357,30.189.19.236,Mobile,Windows,Chrome,Mexico,No

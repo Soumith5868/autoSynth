@@ -1,18 +1,18 @@
-def generate_string(model, tokenizer, field_name, max_len=20):
+def generate_name(model, char2idx, idx2char, max_len=20):
     model.eval()
-    prompt = f"Field: {field_name} →"
-    tokens = tokenizer.encode(prompt, return_tensors="pt").to(next(model.parameters()).device)
-    input_ids = tokens
+    start_id = torch.tensor([[char2idx["<START>"]]], dtype=torch.long).to(device)
     hidden = None
+    input_ids = start_id
+    output_str = ""
 
-    with torch.no_grad():
-        for _ in range(max_len):
-            logits, hidden = model(input_ids, hidden)
-            next_token_logits = logits[:, -1, :]
-            next_token = torch.argmax(next_token_logits, dim=-1).unsqueeze(0)
-            input_ids = torch.cat([input_ids, next_token], dim=1)
-            if next_token.item() == tokenizer.eos_token_id:
-                break
+    for _ in range(max_len):
+        logits, hidden = model(input_ids, hidden)  # input_ids: [1,1]
+        probs = torch.softmax(logits[:, -1, :], dim=-1)
+        next_id = torch.multinomial(probs, num_samples=1)  # shape: [1,1]
+        char = idx2char.get(next_id.item(), "")
+        if char == "<PAD>":
+            break
+        output_str += char
+        input_ids = next_id  # keep it as [1,1] for next GRU input
 
-    output = input_ids[0][len(tokens[0]):]
-    return tokenizer.decode(output)
+    return output_str

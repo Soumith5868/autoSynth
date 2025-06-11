@@ -4,10 +4,9 @@ from typing import List, Literal, Optional
 class ColumnSchema(BaseModel):
     name: str
     type: Literal["int", "float", "categorical", "string", "datetime"]
-    min: Optional[float] = None
-    max: Optional[float] = None
     format: Optional[str] = None
-    values: Optional[List[str]] = None
+    values: Optional[List[str]] = None  # only if type == "categorical"
+
 
 class SchemaObject(BaseModel):
     use_case: str
